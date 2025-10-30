@@ -3,7 +3,7 @@
 const App = () => {
   return (
     <>
-      <div className="max-w-2xl p-2 m-auto cursor-pointer">
+      <div className="max-w-[500px] p-7 m-auto cursor-pointer">
         <img
           className="w-full m-auto mt-6 hover:scale-110 transition-transform duration-500"
           src="/images/OphirCoderLogoPNGSite.png"
