@@ -10,7 +10,7 @@ export const Footer = () => {
         >
           <img
             className="w-8"
-            src="/images/OphirCoderLogo.png"
+            src="/logo.png"
             alt="OphirCoder Logo"
           />
           <p className="text-center font-poppins text-gray-300 text-sm">

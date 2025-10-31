@@ -13,7 +13,7 @@ export const Header = () => {
         >
           <img
             className="w-8"
-            src="/images/OphirCoderLogo.png"
+            src="/logo.png"
             alt="OphirCoder Logo"
           />
           <span className="text-[20px] font-poppins font-extrabold text-white">
