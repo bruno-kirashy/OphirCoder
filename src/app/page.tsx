@@ -6,11 +6,11 @@ import { SectionSolutions } from "./components/Home/SectionSolutions";
 
 const App = () => {
   return (
-    <>
+    <main>
       <SectionHome />
       <SectionSolutions />
       <SectionConstructor />
-    </>
+    </main>
   );
 };
 

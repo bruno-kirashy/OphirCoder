@@ -4,9 +4,9 @@ export const SectionHome = () => {
   return (
     <>
       <section className="w-full max-w-5xl  p-4 m-auto overflow-x-hidden overflow-y-hidden text-white font-poppins flex flex-col gap-6 items-center justify-center">
-        <h1 className="w-full mt-16 font-bold font-poppins text-4xl sm:text-5xl md:text-6xl md:mt-24 text-center [text-shadow:0_0_20px_rgba(255,255,255,0.4)]">
+        <h2 className="w-full mt-16 font-bold font-poppins text-4xl sm:text-5xl md:text-6xl md:mt-24 text-center [text-shadow:0_0_20px_rgba(255,255,255,0.4)]">
           Construindo o Futuro da Web. Da Ideia ao Deploy Global.
-        </h1>
+        </h2>
         <p className="w-full max-w-full sm:max-w-[90%]  text-[15px] font-poppins font-light md:text-lg md:max-w-2xl text-[#A1A1AA] text-center">
           Soluções completas em Desenvolvimento, Deploy e Infraestrutura DNS.
           Entregamos performance, não apenas código.

@@ -1,12 +1,11 @@
-import { IconeGithub } from "./Home/components/IconeGithub";
-
 export const Footer = () => {
   return (
-    <footer className="w-full p-5 max-w-5xl m-auto border-t border-white/30 flex flex-col justify-between items-center mt-10 md:flex-row">
+    <footer className="w-full p-5 max-w-5xl m-auto border-t border-white/30 flex flex-col-reverse justify-between items-center mt-10 md:flex-row">
       <div className="flex justify-center items-center gap-5">
         <a
           className="flex items-center gap-2"
           href="https://ophircoder.com.br"
+          aria-label="Site OphirCoder"
           rel="noreferrer"
         >
           <img
@@ -19,9 +18,10 @@ export const Footer = () => {
           </p>
         </a>
       </div>
-      <div className="mt-5 md:mt-0 flex justify-center items-center gap-5">
+      <div className="mb-5 md:mb-0 flex justify-center items-center gap-5">
         <a
           href="https://github.com/bruno-kirashy"
+          aria-label="GitHub Bruno Kirashy"
           target="_blank"
           rel="noreferrer"
         >
@@ -40,6 +40,7 @@ export const Footer = () => {
         </a>
         <a
           href="https://www.linkedin.com/in/bruno-santos-silva-8091b6378/"
+          aria-label="LinkedIn Bruno Kirashy"
           target="_blank"
           rel="noreferrer"
         >

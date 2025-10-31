@@ -8,6 +8,7 @@ export const Header = () => {
         <a
           className="flex items-center gap-2"
           href="https://ophircoder.com.br"
+          aria-label="Site OphirCoder"
           rel="noreferrer"
         >
           <img
