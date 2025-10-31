@@ -19,7 +19,7 @@ export const ArticleSolutions = ({
   return (
     <div
       ref={ref}
-      className={`flex-1 bg-linear-to-br from-[#fde047]/60 to-[#3b82f6]/60 rounded-[15px] p-0.5 hover:scale-102 cursor-pointer  hover:from-[#fde047] hover:to-[#3b82f6] transition-all duration-700 ease-in-out ${
+      className={`flex-1 bg-linear-to-br from-[#fde047]/60 to-[#3b82f6]/60 rounded-[15px] p-0.5 hover:scale-102 cursor-pointer  hover:from-[#fde047] hover:to-[#3b82f6]  transition-opacity duration-500 ease-in-out ${
         inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
       }`}
     >
