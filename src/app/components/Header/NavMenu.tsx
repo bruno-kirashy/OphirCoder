@@ -2,11 +2,11 @@ import Link from "next/link";
 export const NavMenu = () => {
   return (
     <nav className="md:flex hidden">
-      <ul className="flex gap-6 text-white font-inter font-light text-[16px]">
+      <ul className="flex gap-5 text-white font-inter font-normal text-[14px]">
         <li>
           <Link
             href="/"
-            className="opacity-80 hover:opacity-100"
+            className="opacity-90 hover:opacity-100"
           >
             Home
           </Link>
@@ -14,23 +14,23 @@ export const NavMenu = () => {
         <li>
           <Link
             href="/servicos"
-            className="opacity-80 hover:opacity-100"
+            className="opacity-90 hover:opacity-100"
           >
             Serviços
           </Link>
         </li>
         <li>
           <Link
-            href="/sobre"
-            className="opacity-80 hover:opacity-100"
+            href="/projetos"
+            className="opacity-90 hover:opacity-100"
           >
-            Sobre
+            Projetos
           </Link>
         </li>
         <li>
           <Link
             href="/contato"
-            className="opacity-80 hover:opacity-100"
+            className="opacity-90 hover:opacity-100"
           >
             Contato
           </Link>

@@ -3,7 +3,7 @@ import { NavMenu } from "./NavMenu";
 
 export const Header = () => {
   return (
-    <header className="z-10 max-w-4xl m-auto h-20 p-5 flex justify-between items-center mt-4">
+    <header className="z-10 max-w-5xl m-auto h-20 p-4 flex justify-between items-center mt-4">
       <div className="cursor-pointer flex items-center gap-2">
         <a
           className="flex items-center gap-2"
