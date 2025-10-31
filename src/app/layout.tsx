@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins, Roboto, Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "./components/Header/Header";
+import { Footer } from "./components/Footer";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -42,6 +43,7 @@ export default function RootLayout({
           <div className="absolute bottom-0 right-0 -z-10 w-1/2 h-screen translate-x-1/3 translate-y-1/2 bg-[radial-gradient(ellipse_at_center,rgba(59,130,246,0.15)_0%,rgba(0,0,0,0)_70%)] opacity-90"></div>
           <Header />
           {children}
+          <Footer />
         </div>
       </body>
     </html>
