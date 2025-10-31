@@ -1,15 +1,24 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Poppins, Roboto, Inter } from "next/font/google";
 import "./globals.css";
+import { Header } from "./components/Header/Header";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const poppins = Poppins({
+  variable: "--font-poppins",
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const roboto = Roboto({
+  variable: "--font-roboto",
   subsets: ["latin"],
+  weight: ["300", "400", "500", "700"],
+});
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
@@ -26,9 +35,14 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${poppins.variable} ${roboto.variable} ${inter.variable} antialiased overflow-x-hidden`}
       >
-        {children}
+        <div className="relative isolate overflow-x-hidden min-h-dvh">
+          <div className="absolute top-0 left-0 -z-10 w-1/2 h-[90vh] -translate-x-1/3 -translate-y-1/5 bg-[radial-gradient(ellipse_at_center,rgba(249,123,6,0.2)_0%,rgba(0,0,0,0)_70%)] opacity-80"></div>
+          <div className="absolute bottom-0 right-0 -z-10 w-1/2 h-screen translate-x-1/3 translate-y-1/2 bg-[radial-gradient(ellipse_at_center,rgba(59,130,246,0.15)_0%,rgba(0,0,0,0)_70%)] opacity-90"></div>
+          <Header />
+          {children}
+        </div>
       </body>
     </html>
   );

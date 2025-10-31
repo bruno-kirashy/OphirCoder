@@ -3,29 +3,7 @@
 const App = () => {
   return (
     <>
-      <div className="max-w-[500px] p-7 m-auto cursor-pointer">
-        <img
-          className="w-full m-auto mt-6 hover:scale-110 transition-transform duration-500"
-          src="/images/OphirCoderLogoPNGSite.png"
-          alt="OphirCoder Logo"
-        />
-        <div className="w-full flex justify-center items-center mt-30">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="60"
-            height="60"
-            fill="#f59e0b"
-            viewBox="0 0 256 256"
-          >
-            <path d="M240,120a8,8,0,0,1-8,8H200v16a8,8,0,0,1-16,0V128H72v32h8a16,16,0,0,1,16,16v32a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V176a16,16,0,0,1,16-16h8V128H24a8,8,0,0,1,0-16h96V88h-8A16,16,0,0,1,96,72V40a16,16,0,0,1,16-16h32a16,16,0,0,1,16,16V72a16,16,0,0,1-16,16h-8v24h96A8,8,0,0,1,240,120Zm-18.34,42.34a8,8,0,0,0-11.32,0L192,180.69l-18.34-18.35a8,8,0,0,0-11.32,11.32L180.69,192l-18.35,18.34a8,8,0,0,0,11.32,11.32L192,203.31l18.34,18.35a8,8,0,0,0,11.32-11.32L203.31,192l18.35-18.34A8,8,0,0,0,221.66,162.34Z"></path>
-          </svg>
-        </div>
-        <p className="w-full text-center mt-10 mb-20 text-amber-500 font-extralight text-md md:text-[16px]">
-          Nosso site encontra-se em manutenção programada para lançamento. Em
-          breve, nossa plataforma de serviços estará totalmente disponível.
-          Agradecemos a sua visita.
-        </p>
-      </div>
+      <section className="max-w-4xl overflow-x-hidden text-white font-poppins"></section>
     </>
   );
 };
