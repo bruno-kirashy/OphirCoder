@@ -1,5 +1,4 @@
 "use client";
-
 import { SectionConstructor } from "./components/Home/SectionConstructor";
 import { SectionHome } from "./components/Home/SectionHome";
 import { SectionSolutions } from "./components/Home/SectionSolutions";

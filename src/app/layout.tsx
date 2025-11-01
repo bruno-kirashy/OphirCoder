@@ -24,7 +24,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "OphirCoder | Construtores de Legado Digital",
+  title: {
+    template: "OphirCoder | %s",
+    default: "OphirCoder | Construtores de Legado Digital",
+  },
   description:
     "Criamos sites para empresas focados em solucionar problemas reais dos seus consumidores. Transformamos desafios em presença online eficaz e duradoura.",
   keywords: [
@@ -74,7 +77,7 @@ export default function RootLayout({
       <body
         className={`${poppins.variable} ${roboto.variable} ${inter.variable} antialiased overflow-x-hidden`}
       >
-        <div className="relative isolate overflow-x-hidden overflow-y-hidden min-h-dvh">
+        <div className="flex flex-col relative isolate overflow-x-hidden overflow-y-hidden min-h-dvh">
           <div className="absolute top-0 left-0 -z-10 w-1/2 h-[90vh] -translate-x-1/3 -translate-y-1/5 bg-[radial-gradient(ellipse_at_center,rgba(249,123,6,0.2)_0%,rgba(0,0,0,0)_70%)] opacity-80"></div>
           <div className="absolute bottom-0 right-0 -z-10 w-1/2 h-screen translate-x-1/3 translate-y-1/2 bg-[radial-gradient(ellipse_at_center,rgba(59,130,246,0.15)_0%,rgba(0,0,0,0)_70%)] opacity-90"></div>
           <Header />

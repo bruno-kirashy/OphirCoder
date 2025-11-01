@@ -1,10 +1,10 @@
 export const Footer = () => {
   return (
-    <footer className="w-full p-5 max-w-5xl m-auto border-t border-white/30 flex flex-col-reverse justify-between items-center mt-10 md:flex-row">
+    <footer className="w-full p-5 max-w-5xl m-auto border-t border-white/30 flex flex-col-reverse justify-between items-center mt-10 md:flex-row  max-h-30 flex-1">
       <div className="flex justify-center items-center gap-5">
         <a
           className="flex items-center gap-2"
-          href="https://ophircoder.com.br"
+          href="/"
           aria-label="Site OphirCoder"
           rel="noreferrer"
         >
