@@ -1,7 +1,7 @@
 import { ArticleSolutions } from "./components/ArticleSolutions";
-import { IconeDevelopment } from "./components/IconeDevelopment";
-import { IconeRocket } from "./components/IconeRocket";
-import { IconeServerDNS } from "./components/IconeServerDNS";
+import { IconeDevelopment } from "./components/Icons/IconeDevelopment";
+import { IconeRocket } from "./components/Icons/IconeRocket";
+import { IconeServerDNS } from "./components/Icons/IconeServerDNS";
 
 export const SectionSolutions = () => {
   return (
