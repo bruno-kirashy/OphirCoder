@@ -13,7 +13,7 @@ export const SectionHome = () => {
         </p>
         <div className="w-full flex gap-6 mt-10 mb-10 flex-wrap items-center justify-center">
           <Link
-            href="/projetos"
+            href="/sigin"
             className="btn-primary text-black font-bold bg-[rgb(249,123,6)] shadow-[0_4px_20px_0px_rgba(249,123,6,0.5)] shadow-[rgba(249,123,6,0.5)] px-5 py-3 rounded-lg hover:bg-orange-500 transition-transform hover:scale-105 duration-400"
           >
             Iniciar Projeto
