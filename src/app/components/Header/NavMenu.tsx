@@ -37,7 +37,7 @@ export const NavMenu = () => {
         </li>
         <li className="transition-all duration-500 hover:scale-105">
           <Link
-            href="/sigin"
+            href="/signin"
             className="btn-primary text-black font-bold bg-[rgb(249,123,6)] shadow-[0_4px_20px_0px_rgba(249,123,6,0.5)] shadow-[rgba(249,123,6,0.5)] px-5 py-2 rounded-lg hover:bg-orange-400 transition-transform hover:scale-105 duration-400 "
           >
             Login
